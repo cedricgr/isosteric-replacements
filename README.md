@@ -6,7 +6,7 @@ There are two versions of the notebook
 - the "expanded" version, `isosteric-replacements-expanded`, which include cross-joining operations on the isosteric database, increasing greatly the number of isosteric replacements the notebook can suggest.
 
 ### Logic behind the "expanded" version
-The logic done is quite simple. If chemical groups A and B are both isosteres of a chemical group C, that means that A and B should (or must) be isosteres of each other. This logic was implemented using the free software [KNIME](https://www.knime.com) to create the extended table. 
+The logic done is quite simple. If chemical groups A and B are both isosteres of a chemical group C, that means that A and B should (or must) be isosteres of each other. This logic was implemented using the free software [KNIME](https://www.knime.com) to create the extended table. The workflow is available on the [KNIME public hub](https://hub.knime.com/s/sQfVfUh6olwgacVK).
 
 ## Requirements
 It is required that you have the Python modules `pandas` and `rdkit` (and their dependences) configured in your conda environment. 
